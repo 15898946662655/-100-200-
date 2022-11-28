@@ -1,3 +1,4 @@
+//用递归求数组长度，不可以使用任何变量
 #include <stdio.h>
 int my_strlen(char* str)
 {
