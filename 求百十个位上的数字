@@ -5,7 +5,7 @@ int main()
 	int i,hundred,ten,one;
 	scanf("%d",&i);
 	hundred=i/100;
-	ten=i/100%10;
+	ten=i/10%10;
 	one=i%10;
 	printf("百位：%d\n",hundred);
 	printf("十位：%d\n",ten);
