@@ -7,7 +7,7 @@ int main()
 	float s=0,j=1;
 	int i=1,t;
 	int sign=1;
-	while(fabs(j)>1e-6)
+	while(fabs(j)>=1e-6)
 	{
 	  j=1.0/i*sign;
 	  s+=j;
